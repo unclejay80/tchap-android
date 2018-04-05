@@ -2040,6 +2040,12 @@ public class LoginActivity extends MXCActionBarActivity implements RegistrationM
                             }
                         }
                         displayName = builder.toString();
+                        // add first term of domain
+                        String[] components2 = emailAddress.split("@");
+                        if (components2.length>1) {
+                            String firstDomain = components2[1].substring(0,components2[1].indexOf("."));
+                            displayName += " ["+firstDomain+"]";
+                        }
 
                         if (!TextUtils.equals(session.getMyUser().displayname, displayName)) {
 
