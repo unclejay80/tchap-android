@@ -102,7 +102,7 @@ public class DinsicUtils {
      */
     public  static String getNameFromDisplayName(String displayName) {
         String myRet = displayName;
-        if (displayName.contains("[")) {
+        if (null != displayName && displayName.contains("[")) {
             myRet = displayName.split("\\[")[0].trim();
         }
         return myRet;
@@ -117,7 +117,7 @@ public class DinsicUtils {
     public  static String getDomainFromDisplayName(String displayName) {
         String myRet = "";
 
-        if (displayName.contains("[")) {
+        if (null != displayName && displayName.contains("[")) {
             myRet = displayName.split("\\[")[1];
             if (myRet.contains("]")) {
                 myRet = myRet.split("\\]")[0];
