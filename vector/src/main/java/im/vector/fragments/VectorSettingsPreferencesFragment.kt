@@ -2808,7 +2808,7 @@ class VectorSettingsPreferencesFragment : PreferenceFragment(), SharedPreference
 
     private fun isHomeServerProtected(): Boolean {
         // TODO replace by correct code.
-        return true
+        return false
     }
 
     private fun refreshUsersDirectoryVisibility() {
