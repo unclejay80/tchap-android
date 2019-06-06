@@ -1,4 +1,5 @@
-Riot-Android [![Jenkins](https://img.shields.io/jenkins/s/https/matrix.org/jenkins/view/MatrixView/job/VectorAndroidDevelop.svg)](https://matrix.org/jenkins/view/MatrixView/job/VectorAndroidDevelop/) [![Weblate](https://translate.riot.im/widgets/riot-android/-/svg-badge.svg)](https://translate.riot.im/engage/riot-android/?utm_source=widget) [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=vector.android.riot&metric=alert_status)](https://sonarcloud.io/dashboard?id=vector.android.riot) [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=vector.android.riot&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=vector.android.riot) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=vector.android.riot&metric=bugs)](https://sonarcloud.io/dashboard?id=vector.android.riot) 
+Riot-Android [![Jenkins](https://img.shields.io/jenkins/s/https/matrix.org/jenkins/view/MatrixView/job/VectorAndroidDevelop.svg)](https://matrix.org/jenkins/view/MatrixView/job/VectorAndroidDevelop/) [![Weblate](https://translate.riot.im/widgets/riot-android/-/svg-badge.svg)](https://translate.riot.im/engage/riot-android/?utm_source=widget) [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=vector.android.riot&metric=alert_status)](https://sonarcloud.io/dashboard?id=vector.android.riot) [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=vector.android.riot&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=vector.android.riot) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=vector.android.riot&metric=bugs)](https://sonarcloud.io/dashboard?id=vector.android.riot) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Funclejay80%2Ftchap-android.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Funclejay80%2Ftchap-android?ref=badge_shield)
+
 =======
 
  Riot is an Android Matrix client.
@@ -117,3 +118,7 @@ FAQ
 2. Where the apk is generated?
 
 	> Riot/build/outputs/apk
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Funclejay80%2Ftchap-android.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Funclejay80%2Ftchap-android?ref=badge_large)
